@@ -87,3 +87,11 @@ footer {
 */
 
 /* Write your CSS here */
+
+main.wrapper:first-letter {
+  color: #f2f2f2;
+  font-size: 5rem;
+  padding: .4em .2em;
+  background-color: #666;
+  font-style: normal;
+}
