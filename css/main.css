@@ -102,7 +102,7 @@ figure {
   padding: 6px;
   border-left: 3px;
   border-right: 3px;
-  color: #333;
+  border-color: #333;
   float: right;
 }
 
@@ -112,4 +112,13 @@ figcaption {
 
 blockquote {
   font-size: 1.5rem;
+  color: #666;
+  border: solid;
+  padding: 6px 0;
+  border-left: 3px;
+  border-right: 3px;
+  border-color: #333;
+  float: left;
+  text-align: right;
+  width: 40%;
 }
