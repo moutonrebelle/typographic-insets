@@ -88,7 +88,7 @@ footer {
 
 /* Write your CSS here */
 
-main.wrapper:first-letter {
+main.wrapper::first-letter {
   color: #f2f2f2;
   font-size: 5rem;
   padding: .4em .2em;
@@ -104,4 +104,12 @@ figure {
   border-right: 3px;
   color: #333;
   float: right;
+}
+
+figcaption {
+  font-size: .875rem;
+}
+
+blockquote {
+  font-size: 1.5rem;
 }
